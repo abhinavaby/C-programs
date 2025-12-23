@@ -1,4 +1,4 @@
-#1 📐 Geometry Area Finder
+<h1> 1. 📐 Geometry Area Finder</h1>
 
 A simple, interactive C program to calculate the area of common geometric shapes. This tool is perfect for beginners learning about functions and conditional logic in C.
 
@@ -21,8 +21,7 @@ You need a C compiler installed on your system (such as `gcc`, `clang`, or `msvc
 
 
 
-<h1>--------------------------------------------------------------------------------------------------------------------</h1>
-#2 Celsius to Fahrenheit Converter
+<h1>#2 Celsius to Fahrenheit Converter</h1>
 
 A simple C program that takes a temperature input in Celsius and converts it to Fahrenheit using a modular function.
 
@@ -42,7 +41,19 @@ A simple C program that takes a temperature input in Celsius and converts it to 
     ./converter
     ```
 
-## 📝 Fixed Logic
-In C, dividing two integers like `9/5` results in `1`. To get the correct factor of `1.8`, we use:
-```c
-float f = (c * (9.0 / 5.0)) + 32;
+
+<h1>#3 Student Marks Percentage Calculator</h1>
+
+A simple and efficient C program to calculate the average percentage of a student based on marks obtained in three subjects: Science, Maths, and Sanskrit.
+
+## 📋 Project Overview
+This project demonstrates the use of:
+* **Functions:** A dedicated `percentage()` function to handle logic.
+* **Floating Point Precision:** Formatting output to 2 decimal places for accuracy.
+* **User Input:** interactive data collection using `scanf`.
+
+## 🧮 Calculation Logic
+The program assumes each subject is out of 100 marks. The formula used is:
+```text
+Percentage = ((Science + Maths + Sanskrit) / 300) * 100
+

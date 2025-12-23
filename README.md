@@ -1,4 +1,4 @@
-# 📐 Geometry Area Finder
+#1 📐 Geometry Area Finder
 
 A simple, interactive C program to calculate the area of common geometric shapes. This tool is perfect for beginners learning about functions and conditional logic in C.
 
@@ -22,7 +22,7 @@ You need a C compiler installed on your system (such as `gcc`, `clang`, or `msvc
 
 
 <h1>----------------------------------------------------------------------</h1>
-# Celsius to Fahrenheit Converter
+#2 Celsius to Fahrenheit Converter
 
 A simple C program that takes a temperature input in Celsius and converts it to Fahrenheit using a modular function.
 

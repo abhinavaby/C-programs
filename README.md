@@ -20,6 +20,11 @@ You need a C compiler installed on your system (such as `gcc`, `clang`, or `msvc
 
 
 
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="700">
+
+
+
+
 
 <h1>#2 Celsius to Fahrenheit Converter</h1>
 
@@ -41,6 +46,7 @@ A simple C program that takes a temperature input in Celsius and converts it to 
     ./converter
     ```
 
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="700">
 
 <h1>#3 Student Marks Percentage Calculator</h1>
 

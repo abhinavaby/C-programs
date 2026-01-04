@@ -231,6 +231,56 @@ int main() {
     <pre><code>./arithmetic</code></pre>
   </li>
 </ol>
+<br>
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="700">
+<div >
+  <h1>#10 🌓 Call by Value vs. Call by Reference</h1>
+ 
+
+<hr />
+
+<h3>📘 Concept Overview</h3>
+<p>
+  This program demonstrates how C handles function arguments. It provides a side-by-side comparison of two fundamental behaviors:
+</p>
+
+<ul>
+  <li><strong>Call by Value:</strong> A copy of the variable is passed. The original variable remains untouched outside the function.</li>
+  <li><strong>Call by Reference:</strong> The actual memory address is passed. Any changes made inside the function directly affect the original variable.</li>
+</ul>
+
+
+<h3>🔬 Output Analysis</h3>
+<table border="1" width="100%">
+  <tr>
+    <th align="left">Method</th>
+    <th align="left">Terminal Output</th>
+    <th align="left">Effect on Original Variable</th>
+  </tr>
+  <tr>
+    <td><strong>Call by Value</strong></td>
+    <td><code>square: 25</code></td>
+    <td><strong>No Change</strong> (Variable remains 5)</td>
+  </tr>
+  <tr>
+    <td><strong>Call by Reference</strong></td>
+    <td><code>_square: 25</code></td>
+    <td><strong>Permanent Change</strong> (Variable becomes 25)</td>
+  </tr>
+</table>
+
+<h3>🚀 Getting Started (2026)</h3>
+<p>To run this demonstration in your local environment:</p>
+<pre><code>
+# Compile the program
+gcc -o comparison main.c
+
+# Run the executable
+./comparison
+</code></pre>
+
+<hr />
+
 
 
 

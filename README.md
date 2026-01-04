@@ -70,5 +70,22 @@ Percentage = ((Science + Maths + Sanskrit) / 300) * 100
 A lightweight C program that calculates and prints the Fibonacci sequence up to a user-defined limit.<br>
 🚀 How It Works <br>
 The program uses a simple iterative approach with three integer variables (b, c, and d) to calculate the next number in the sequence by adding the two preceding ones.
+<br>
+<!-- Save this file as README.md on GitHub -->
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="700">
+
+<div >
+  <h1>#5📍C Pointers </h1>
+  <p>A simple exploration of memory addresses and pointer dereferencing in C.</p>
+</div>
+
+<hr />
+
+### 📝 Description
+This program demonstrates the relationship between variables, their memory addresses, and pointer variables. It showcases how to:
+*   Assign an address to a pointer using the `&` operator.
+*   Access the value at a memory address using the `*` operator (dereferencing).
+*   Print memory addresses using the `%p` format specifier.
+
 
 

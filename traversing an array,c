@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main(){
+    int aadhar[5];
+    for(int i=0;i<5;i++){
+        printf("enter the aadhar no %d: ",i+1);
+        scanf("%d",&aadhar[i]);
+    }
+    printf("the aadhar numbers are:\n");
+    for(int i=0;i<5;i++){
+        printf("%d\n",aadhar[i]);
+    }
+    return 0;
+}

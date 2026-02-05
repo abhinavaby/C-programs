@@ -2,7 +2,7 @@
 #include<string.h>
 typedef struct sfspublickschoolandjuniorcollage{
     int roll;
-    float cgp
+    float c
     char name[100];
 
 }sfs;

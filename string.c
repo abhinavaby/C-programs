@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include<string.h
+#include<strin
 int main(){
     char firstname[20], lastname[20];
     printf("enter your first name: ");
@@ -16,4 +16,5 @@ int main(){
     }
     return 0;
 }
+
 

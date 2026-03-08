@@ -25,6 +25,7 @@ int main(){
     for(int i=0;i<n;i++){
         printf("%s\t%d\t%c\t\t%.2f\n",s[i].name,s[i].class,s[i].division,s[i].mark);
     }
+    printf("\n");
     printf("students failed:\n");
     printf("Name\tClass\tDivision\tMark\n");
     for(int i=0;i<n;i++){
